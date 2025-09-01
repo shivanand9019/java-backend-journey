@@ -13,8 +13,6 @@
 
 ## 🔢 DSA Problems Solved
 1. Two Sum (LeetCode #1) – HashMap approach.
-2. Best Time to Buy and Sell Stock (LeetCode #121) – Track min price + max profit.
-
 ## 📂 Repo Structure
 - basics/day1 → simple Java programs.
 - dsa/day1 → solved LeetCode problems.
