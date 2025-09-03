@@ -13,7 +13,10 @@
 
 ## 🔢 DSA Problems Solved
 1. Two Sum (LeetCode #1) – HashMap approach.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c474b236765249879376bbd39c26ef0c0939fd7
 ## 📂 Repo Structure
 - basics/day1 → simple Java programs.
 - dsa/day1 → solved LeetCode problems.
