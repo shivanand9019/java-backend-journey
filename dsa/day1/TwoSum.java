@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class TwoSum {
     public static int [] twoSum(int nums[],int target ){
-
         HashMap<Integer,Integer> numMap = new HashMap<>();
         for(int i=0;i<nums.length;i++){
             int compl = target - nums[i];
@@ -15,6 +14,7 @@ public class TwoSum {
         }
         
         return new int[] {-1,-1};
+            
     }
 
     public static void main(String[] args) {
