@@ -18,19 +18,19 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        Scanner sc  = new Scanner(System.in);
-        System.out.println("enter the no of elements:");
-        int n = sc.nextInt();
-        int [] nums = new int[n];
-        for(int i=0;i<n;i++){
-            nums[i]= sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("enter the no of elements:");
+            int n = sc.nextInt();
+            int [] nums = new int[n];
+            for(int i=0;i<n;i++){
+                nums[i]= sc.nextInt();
+            }
+            
+            System.out.println("Enter the target:");
+            int target = sc.nextInt();
+            int [] res = twoSum(nums, target);
+            System.out.println(Arrays.toString(res));
         }
-
-        System.out.println("Enter the target:");
-        int target = sc.nextInt();
-        int [] res = twoSum(nums, target);
-        System.out.println(Arrays.toString(res));
-        sc.close();
     }
     
 }

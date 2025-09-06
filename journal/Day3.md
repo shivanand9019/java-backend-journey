@@ -1,4 +1,4 @@
-# Day 2 – Java Backend Journey 🚀
+# Day 3 – Java Backend Journey 🚀
 
 ## ✅ Concepts Learned
 - Class and Objects in java
@@ -12,7 +12,10 @@
 3. Polymorphism.java → Calculator overload, Cat override.
 
 ## 🔢 DSA Problems Solved
+Two Pointers
 1. ThreeSum (two-pointers).
+2. ThreeSumClosest
+
 
 
 ## 📂 Repo Structure
