@@ -8,6 +8,7 @@ class Circle extends  Shape{
     Circle(double r){
         this.r = r;
     }
+    @Override
     double area(){
         return Math.PI * r * r;
     }
@@ -23,6 +24,7 @@ class Square implements Drawable{
 
     Square(int side) {this.side=side; }
 
+    @Override
     public void draw(){
         System.out.println("drawing  Square of  side"+side); 
     }
