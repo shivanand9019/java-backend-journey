@@ -1,6 +1,6 @@
 import java.util.*;
 
-class BankAccount{
+class BankAccount {
     private String user;
     private double balance;
     private List<String> history = new ArrayList<>();
